@@ -1,7 +1,28 @@
 aid: aktis-oncology
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aktis-oncology.png
 name: Aktis Oncology
-description: Aktis Oncology is a company surfaced as a portfolio company of a16z and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Aktis Oncology is a clinical-stage biotechnology company developing next-generation
+  precision radiopharmaceuticals for the treatment of cancer. The company has built a
+  proprietary miniprotein radioconjugate platform that pairs tumor-targeting miniproteins
+  with targeted alpha-particle emitters, aiming to reach solid-tumor types that have been
+  difficult to address with existing radiopharmaceutical therapies. Aktis focuses on
+  patient populations with significant unmet medical need, advancing a pipeline of targeted
+  alpha-based therapeutic candidates. The company operates from Boston, Massachusetts, with
+  an additional site in Research Triangle Park, North Carolina. Aktis Oncology was surfaced
+  as an a16z portfolio company and added to the API Evangelist network; it is a biotechnology
+  company with no public developer API surface.
 url: https://raw.githubusercontent.com/api-evangelist/aktis-oncology/refs/heads/main/apis.yml
 x-type: company
 x-source: a16z-portfolio
@@ -12,9 +33,42 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Biotechnology
+- Pharmaceuticals
+- Oncology
+- Radiopharmaceuticals
+- Precision Medicine
+- Healthcare
+- Life Sciences
 apis: []
+common:
+- type: DomainSecurity
+  url: security/aktis-oncology-domain-security.yml
+- type: Website
+  url: https://www.aktisoncology.com
+  name: Aktis Oncology
+- type: Support
+  url: https://www.aktisoncology.com/contact-us/
+  name: Contact Us
+- type: PrivacyPolicy
+  url: https://www.aktisoncology.com/privacy-policy/
+  name: Privacy Policy
+- type: TermsOfService
+  url: https://www.aktisoncology.com/terms/
+  name: Terms & Conditions
+- type: LinkedIn
+  url: https://www.linkedin.com/company/aktis-oncology
+  name: LinkedIn
+- type: Investors
+  url: https://investors.aktisoncology.com/
+  name: Investors
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
